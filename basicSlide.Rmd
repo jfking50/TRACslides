@@ -1,0 +1,18 @@
+
+<div class="my-header">My Title Here</div>
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+#### Header 4
+
+##### Header 5
+
+<p style="background:rgb(148, 173, 124); padding: 10px"> Green Box</p>
+
+<p style="background:rgb(226, 215, 159); padding: 10px">Make a tan box.</p>
+
+<div class="my-footer"> `r myFooter` </div>

@@ -1,0 +1,43 @@
+---
+title: "Example Title"
+author: "My Name"
+institute: "My Organization"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: [trac.css, trac-fonts.css]
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightLanguage: r
+      highlightStyle: sunburst
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+options(htmltools.dir.version = FALSE)
+
+myFooter <- 'Global Footer Named in exampleSlides.Rmd'
+```
+
+```{r child = 'coverSlide.Rmd'}
+# Note you can write a slide a separate file and call it as above
+# ensure the slide is in the appropriate directory or give it the right path
+# I kept the slide breaks listed in this main file
+```
+
+---
+
+```{r child = 'purposeAgendaSlide.Rmd'}
+```
+
+---
+
+```{r child = 'basicSlide.Rmd'}
+```

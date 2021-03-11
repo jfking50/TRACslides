@@ -1,0 +1,15 @@
+
+<div class="my-header">Purpose and Agenda</div>
+
+<p style="background:rgb(148, 173, 124); padding: 10px"> <b>Purpose:</b> Share information about TRAC</p>
+
+**Agenda**
+  - Key Point 1
+    - Key Point 1.1
+    - Key Point 1.2
+  - Key Point 2
+  - Key Point 3
+
+<p style="background:rgb(226, 215, 159); padding: 10px">Make a tan box.</p>
+
+<div class="my-footer"> `r myFooter` </div>

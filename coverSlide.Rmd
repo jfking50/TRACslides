@@ -1,0 +1,26 @@
+class: center, middle <!-- my comment -->
+
+# Cover Title Here
+
+<img src="20190425_TRAC_Logo.png" style="width:300px;height:300px;"/>
+
+### `r format(Sys.time(), '%d %B %Y')`
+
+### POC: <a href="mailto:john.f.king1.mil@mail.mil">MAJ John King</a>
+
+<div class="my-footer">Press p For Presenter Mode</div>
+
+???
+Presentation Keyboard Shortcuts
+
+| Action         | Key                                  |
+|----------------|--------------------------------------|
+| Next Slide     | Right Arrow, Down Arrow, PageDown, Space |
+| Previous Slide | Up Arrow, Left Arrow, PageUp |
+| First Slide    | Home |
+| Last Slide     | End |
+| Specific Slide | Slide Number <Enter> |
+| Black Screen   | b |
+| Clone Screen   | c |
+| Presenter Mode | p |
+| Full Screen    | f |
